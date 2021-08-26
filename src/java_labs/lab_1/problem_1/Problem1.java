@@ -3,17 +3,19 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+package java_labs.lab_1.problem_1;
+
 import java.util.*;
+import java.io.*;
 
-public class Rectangle {
-    private double area;
-
-    public Rectangle(double h, double w) {
-        area = h * w;
+public class Problem1 {
+    public static void start() {
+        Calculator.start();
+        return;
     }
 
-    public void printArea() {
-        System.out.print(area + "\n");
+    public static void main(String[] args) {
+        start();
         return;
     }
 }

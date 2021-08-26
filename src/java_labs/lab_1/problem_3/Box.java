@@ -5,8 +5,19 @@
 */
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
+public class Box {
+    private double volume;
+
+    public Box(double h, double w, double d) {
+        volume = h * w * d;
+    }
+
+    public void printVolume() {
+        System.out.print(volume + "\n");
+        return;
+    }
+
+    public static void start() {
         Scanner input = new Scanner(System.in);
         System.out.println("\n\n----------------------------------------------------\n");
         System.out.println("        | V O L U M E | O F | B O X E S |\n");
@@ -22,7 +33,12 @@ public class Main {
             b.printVolume();
             System.out.println("\n----------------------------------------------------\n\n");
         }
-        input.close();
+        return;
+    }
+
+    public static void main(String[] args) {
+        start();
+        return;
     }
 }
 /*

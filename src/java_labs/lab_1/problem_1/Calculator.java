@@ -3,13 +3,17 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-import java.util.*;
+package java_labs.lab_1.problem_1;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+import java.util.*;
+import java.io.*;
+
+class Calculator {
+
+    public static void start() {
         double number = 0;
-        do {
+        while (true) {
+            Scanner input = new Scanner(System.in);
             System.out.println("\n\n---------------------------");
             System.out.println("  | C A L C U L A T O R |");
             System.out.println("---------------------------\n");
@@ -28,16 +32,18 @@ public class Main {
             System.out.println("---------------------------\n");
             System.out.println("Enter your choice :\n");
             int choice = input.nextInt();
+            System.out.println("\n---------------------------\n");
             if (choice == -1) {
-                input.close();
-                System.out.println("\nExiting...\n\n");
+                System.out.println("Exiting...\n");
+                System.out.println("---------------------------\n\n");
                 return;
             } else if (choice == 8) {
                 number = (number != 0) ? 0 : 1;
             } else if (choice == 9) {
                 number = 0;
             } else if (choice < -1 || choice > 9) {
-                System.out.println("\nInvalid Choice\n\n");
+                System.out.println("Invalid Choice\n");
+                System.out.println("---------------------------\n\n");
             } else {
                 System.out.println("\nEnter a number :\n");
                 double operand = input.nextDouble();
@@ -66,8 +72,14 @@ public class Main {
                         number = (number != 0) || (operand != 0) ? 1 : 0;
                         break;
                 }
+                System.out.println("\n---------------------------\n");
             }
-        } while (true);
+        }
+    }
+
+    public static void main(String[] args) {
+        start();
+        return;
     }
 }
 /*

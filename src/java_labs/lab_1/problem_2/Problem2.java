@@ -5,8 +5,8 @@
 */
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
+public class Addition {
+    public static void start() {
         Scanner input = new Scanner(System.in);
         do {
             System.out.println("\n\n| A D D I T I O N |\n\n");
@@ -17,7 +17,6 @@ public class Main {
             System.out.println("Enter your choice :\n");
             int choice = input.nextInt();
             if (choice == -1) {
-                input.close();
                 System.out.println("\nExiting...\n\n");
                 return;
             } else if (choice < -1 || choice > 3) {
@@ -45,6 +44,11 @@ public class Main {
                 }
             }
         } while (true);
+    }
+
+    public static void main(String[] args) {
+        start();
+        return;
     }
 }
 /*
