@@ -3,9 +3,12 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-import java.util.*;
+package java_labs.lab_1.problem_3;
 
-public class Circle {
+import java.util.*;
+import java.io.*;
+
+class Circle {
     private double area;
 
     public Circle(double r) {
@@ -19,16 +22,16 @@ public class Circle {
 
     public static void start() {
         Scanner input = new Scanner(System.in);
-        System.out.println("\n\n----------------------------------------------------\n");
-        System.out.println("         | A R E A | O F | C I R C L E |\n");
-        System.out.println("----------------------------------------------------\n\n");
+        System.out.println("\n\n---------------------------");
+        System.out.println(" A R E A  O F  C I R C L E");
+        System.out.println("---------------------------\n");
         double r;
         System.out.println("Enter radius of the CIRCLE :\n");
         r = input.nextDouble();
         Circle c = new Circle(r);
         System.out.println("\nArea of the CIRCLE : ");
         c.printArea();
-        System.out.println("\n----------------------------------------------------\n\n");
+        System.out.println("\n---------------------------\n");
         return;
     }
 

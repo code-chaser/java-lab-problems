@@ -10,8 +10,8 @@ import java.io.*;
 
 public class Lab {
     public static void start() {
+        Scanner input = new Scanner(System.in);
         while(true) {
-            Scanner input = new Scanner(System.in);
             System.out.println("\n\n---------------------------");
             System.out.println("       | L A B   1 |");
             System.out.println("---------------------------\n");
@@ -51,9 +51,9 @@ public class Lab {
                     java_labs.lab_1.problem_6.Problem6.start();
                     break;
                 default:
-                    System.out.println("\nInvalid Choice\n");
-                    System.out.println("---------------------------\n");
+                    System.out.println("\nInvalid Choice");
             }
+            System.out.println("\n---------------------------\n");
         }
     }
 

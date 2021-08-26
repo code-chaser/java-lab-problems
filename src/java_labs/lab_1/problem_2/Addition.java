@@ -3,9 +3,12 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-import java.util.*;
+package java_labs.lab_1.problem_2;
 
-public class Addition {
+import java.util.*;
+import java.io.*;
+
+class Addition {
     private double value;
 
     public Addition() {

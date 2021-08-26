@@ -3,10 +3,13 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-import java.util.*;
+package java_labs.lab_1.problem_5;
 
-public class Main {
-    public static void main(String[] args) {
+import java.util.*;
+import java.io.*;
+
+public class IfElse {
+    public static void start() {
         Scanner input = new Scanner(System.in);
         System.out.println("\nEnter four numbers :\n");
         double n1, n2, n3, n4, minimum, maximum;
@@ -31,7 +34,11 @@ public class Main {
             maximum = n4;
         System.out.println("\nMinimum = " + minimum);
         System.out.println("Maximum = " + maximum + "\n");
-        input.close();
+    }
+
+    public static void main(String[] args) {
+        start();
+        return;
     }
 }
 /*

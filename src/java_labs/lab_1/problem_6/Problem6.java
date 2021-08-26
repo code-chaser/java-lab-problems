@@ -3,10 +3,16 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-import java.util.*;
+package java_labs.lab_1.problem_6;
 
-public class Main {
-    public static void main(String[] args) {
+import java.util.*;
+import java.io.*;
+
+public class Problem6 {
+    public static void start() {
+        System.out.println("\n\n---------------------------");
+        System.out.println("  | VALUES OF VARIABLES |");
+        System.out.println("---------------------------\n");
         int z = 8;
         int a = z++ + ++z;
         int b = z-- + --z;
@@ -14,13 +20,19 @@ public class Main {
         int d = ++z;
         int e = z--;
         int f = --z;
-        System.out.println("\na = " + a);
+        System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
         System.out.println("d = " + d);
         System.out.println("e = " + e);
         System.out.println("f = " + f);
         System.out.println("z = " + z);
+        System.out.println("---------------------------\n");
+    }
+
+    public static void main(String[] args) {
+        start();
+        return;
     }
 }
 /*

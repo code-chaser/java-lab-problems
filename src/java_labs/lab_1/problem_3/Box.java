@@ -3,9 +3,12 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-import java.util.*;
+package java_labs.lab_1.problem_3;
 
-public class Box {
+import java.util.*;
+import java.io.*;
+
+class Box {
     private double volume;
 
     public Box(double h, double w, double d) {
@@ -19,9 +22,9 @@ public class Box {
 
     public static void start() {
         Scanner input = new Scanner(System.in);
-        System.out.println("\n\n----------------------------------------------------\n");
-        System.out.println("        | V O L U M E | O F | B O X E S |\n");
-        System.out.println("----------------------------------------------------\n\n");
+        System.out.println("\n\n---------------------------");
+        System.out.println("V O L U M E  O F  B O X E S");
+        System.out.println("---------------------------\n");
         for (int i = 0; i < 3; i++) {
             double h, w, d;
             System.out.println("Enter height, width & depth for BOX " + (i + 1) + " :\n");
@@ -31,7 +34,7 @@ public class Box {
             Box b = new Box(h, w, d);
             System.out.println("\nVolume of BOX " + (i + 1) + " : ");
             b.printVolume();
-            System.out.println("\n----------------------------------------------------\n\n");
+            System.out.println("\n---------------------------\n");
         }
         return;
     }
