@@ -31,6 +31,10 @@ ___
      cd ./build
      make run
   ```
+
+<br>
+
+- **NOTE:** just compile & execute the code using the makefile as shown above, after that the executable will take you to any problem's solution from any lab as per your choice.
 ___
 
 <br>
