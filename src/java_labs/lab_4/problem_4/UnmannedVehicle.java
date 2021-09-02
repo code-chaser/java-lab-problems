@@ -3,10 +3,7 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_4;
-
 import java.util.*;
-import java.io.*;
 
 public class UnmannedVehicle {
     private double X, Y; // strored in miles;
@@ -48,39 +45,35 @@ public class UnmannedVehicle {
         }
     }
 
-    public static void start() {
+    public static void main(String[] args) {
         UnmannedVehicle dummyUnmannedVehicle = new UnmannedVehicle();
         dummyUnmannedVehicle.setRandomLocation();
         while (true) {
             Scanner input = new Scanner(System.in);
-            System.out.println("\n\n---------------------------");
-            System.out.println("     L O C A T I O N");
-            System.out.println("---------------------------\n");
+            System.out.println("\n\n---------------------------------");
+            System.out.println("\n        L O C A T I O N\n");
+            System.out.println("---------------------------------\n");
             System.out.println("[01] : in Miles");
             System.out.println("[02] : in Kilometers");
             System.out.println("[03] : in Meters\n");
             System.out.println("[-1] : Exit\n");
-            System.out.println("---------------------------\n\n");
-            System.out.println("Enter your choice :");
+            System.out.println("---------------------------------\n\n");
+            System.out.println("Enter your choice :\n");
             int choice = input.nextInt();
             if (choice == -1) {
+                input.close();
                 System.out.println("\nExiting...\n\n");
                 return;
             }
             if (choice < 1 || choice > 3) {
                 System.out.println("Invalid Choice!\n");
-                System.out.println("---------------------------------\n\n");
+                System.out.println("\n---------------------------------\n\n");
                 continue;
             }
             double X = dummyUnmannedVehicle.getX(choice), Y = dummyUnmannedVehicle.getY(choice);
             System.out.println("\nX = " + X + "\n" + "Y = " + Y + "\n");
-            System.out.println("---------------------------------\n\n");
+            System.out.println("\n---------------------------------\n\n");
         }
-    }
-
-    public static void main(String[] args) {
-        start();
-        return;
     }
 }
 /*

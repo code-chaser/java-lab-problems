@@ -3,31 +3,27 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_5;
-
 import java.util.*;
-import java.io.*;
 
 public class AreaCalculator {
-
-    public static void start() {
+    public static void main(String[] args) {
         while (true) {
             Scanner input = new Scanner(System.in);
-            System.out.println("\n\n---------------------------");
-            System.out.println("      AREA CALCULATOR");
-            System.out.println("---------------------------\n");
+            System.out.println("\n\n---------------------------------");
+            System.out.println("\n  A R E A   C A L C U L A T O R\n");
+            System.out.println("---------------------------------\n");
             System.out.println("[01] : Area of Circle");
             System.out.println("[02] : Area of Pentagon");
             System.out.println("[03] : Area of Triangle");
             System.out.println("[04] : Area of Square");
             System.out.println("[05] : Area of Rectangle\n");
             System.out.println("[-1] : Exit\n");
-            System.out.println("---------------------------\n");
+            System.out.println("---------------------------------\n\n");
             System.out.println("Enter your choice :\n");
             int choice = input.nextInt();
             if (choice == -1) {
-                System.out.println("Exiting...\n");
-                System.out.println("---------------------------\n");
+                input.close();
+                System.out.println("\nExiting...\n\n");
                 return;
             }
             double area = 0;
@@ -67,13 +63,8 @@ public class AreaCalculator {
             }
             if (choice >= 1 && choice < 6)
                 System.out.println("\nCalculated Area : " + area + " sq. Units");
-            System.out.println("\n---------------------------\n");
+            System.out.println("\n---------------------------------\n\n");
         }
-    }
-    
-    public static void main(String[] args) {
-        start();
-        return;
     }
 }
 /*

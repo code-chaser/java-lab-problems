@@ -3,12 +3,9 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_2;
-
 import java.util.*;
-import java.io.*;
 
-class WriteOnly {
+public class WriteOnly {
     private int dummyInt;
 
     public void setterMethod(int dummyInt) {
@@ -16,22 +13,17 @@ class WriteOnly {
         return;
     }
 
-    public static void start() {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         WriteOnly dummyObject = new WriteOnly();
-        System.out.println("\n\n---------------------------");
-        System.out.println("    WRITE - ONLY  CLASS\n");
-        System.out.println("---------------------------\n");
-        System.out.print("Enter an integer : ");
+        System.out.println("\n\n-----------------------------------------");
+        System.out.println("\n      W R I T E  O N L Y  C L A S S\n");
+        System.out.println("-----------------------------------------\n");
+        System.out.print("\nEnter an integer : ");
         int dummyInt = input.nextInt();
         dummyObject.setterMethod(dummyInt);
-        System.out.println("\nPrivate field value set successfully!");
-        System.out.println("\n---------------------------\n");
-        return;
-    }
-
-    public static void main(String[] args) {
-        start();
+        System.out.println("\nPrivate field value set successfully!\n");
+        System.out.println("\n-----------------------------------------\n\n");
         return;
     }
 }

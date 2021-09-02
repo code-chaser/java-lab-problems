@@ -3,12 +3,9 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_1;
-
 import java.util.*;
-import java.io.*;
 
-class TwinPrimes {
+public class TwinPrimes {
     private static int[] sieve(int n) {
         int[] a = new int[n + 1];
         for (int i = 0; i <= n; i++)
@@ -35,7 +32,7 @@ class TwinPrimes {
         return twinPrimesArr;
     }
 
-    public static void start() {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("\n\nEnter the number upto which you want to find Twin Primes : \n");
         int n = input.nextInt();
@@ -44,11 +41,7 @@ class TwinPrimes {
         for (int i = 0; i < twinPrimesArr.size() - 1; i++)
             if (twinPrimesArr.get(i + 1) == twinPrimesArr.get(i) + 2)
                 System.out.println("{ " + twinPrimesArr.get(i) + " , " + twinPrimesArr.get(i + 1) + " }");
-        return;
-    }
-
-    public static void main(String[] args) {
-        start();
+        input.close();
         return;
     }
 }

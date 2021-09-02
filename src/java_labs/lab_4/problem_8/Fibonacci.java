@@ -3,10 +3,7 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_8;
-
 import java.util.*;
-import java.io.*;
 
 public class Fibonacci {
     private static Vector<Integer> fibonacciNumbers(int n) {
@@ -18,17 +15,13 @@ public class Fibonacci {
         return fibonacciNumbersArr;
     }
 
-    public static void start() {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("\n\nEnter the number upto which you want to print Fibonacci Numbers : \n");
         int n = input.nextInt();
         Vector<Integer> fibonacciNumbersArr = Fibonacci.fibonacciNumbers(n);
         System.out.println("\nFibonacci Numbers upto " + n + " are : \n" + ((n == 0) ? "[0]" : fibonacciNumbersArr) + "\n");
-        return;
-    }
-
-    public static void main(String[] args) {
-        start();
+        input.close();
         return;
     }
 }

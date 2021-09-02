@@ -3,22 +3,20 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs;
+package java_labs.lab_2.problem_2;
 
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Problem2 {
     public static void start() {
         Scanner input = new Scanner(System.in);
         while(true) {
             System.out.println("\n\n---------------------------");
-            System.out.println("   | J A V A   L A B S |");
+            System.out.println("     P R O B L E M   2");
             System.out.println("---------------------------\n");
-            System.out.println("[01] : LAB 1");
-            System.out.println("[02] : LAB 2");
-            System.out.println("[03] : LAB 3");
-            System.out.println("[04] : LAB 4\n");
+            System.out.println("[01] : Read Only Class");
+            System.out.println("[02] : Write Only Class\n");
             System.out.println("[-1] : Exit\n");
             System.out.println("---------------------------\n");
             System.out.println("Enter your choice :\n");
@@ -28,28 +26,22 @@ public class Main {
                 System.out.println("Exiting...\n");
                 System.out.println("---------------------------\n");
                 return;
+            } else if (choice < -1 || choice > 2) {
+                System.out.println("\nInvalid Choice");
             }
             switch (choice) {
                 case 1:
-                    java_labs.lab_1.Lab.start();
+                    ReadOnly.start();
                     break;
                 case 2:
-                    java_labs.lab_2.Lab.start();
+                    WriteOnly.start();
                     break;
-                case 3:
-                    //java_labs.lab_3.Lab.start();
-                    break;
-                case 4:
-                    //java_labs.lab_3.Lab.start();
-                    break;
-                default:
-                    System.out.println("\nInvalid Choice");
             }
             System.out.println("\n---------------------------\n");
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         start();
         return;
     }

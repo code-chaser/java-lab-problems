@@ -1,0 +1,2 @@
+In this program ENCAPSULATION is used as the private fields of the class aren't accessible directly;
+getterMethod(); is used to access them;

@@ -3,12 +3,9 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_2;
-
 import java.util.*;
-import java.io.*;
 
-class ReadOnly {
+public class ReadOnly {
     private String dummyString;
 
     public ReadOnly(String dummyString) {
@@ -19,18 +16,13 @@ class ReadOnly {
         return dummyString;
     }
 
-    public static void start() {
-        ReadOnly dummyObject = new ReadOnly("LIT2020013");
-        System.out.println("\n\n---------------------------");
-        System.out.println("     READ - ONLY CLASS\n");
-        System.out.println("---------------------------\n");
-        System.out.println("The stored value is : " + dummyObject.getterMethod());
-        System.out.println("\n---------------------------\n");
-        return;
-    }
-
     public static void main(String[] args) {
-        start();
+        ReadOnly dummyObject = new ReadOnly("LIT2020013");
+        System.out.println("\n\n-----------------------------------------");
+        System.out.println("\n       R E A D  O N L Y  C L A S S\n");
+        System.out.println("-----------------------------------------\n");
+        System.out.println("\nThe stored value is : " + dummyObject.getterMethod() + "\n");
+        System.out.println("\n-----------------------------------------\n\n");
         return;
     }
 }

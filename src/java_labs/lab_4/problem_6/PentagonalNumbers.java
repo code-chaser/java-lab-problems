@@ -3,17 +3,14 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_2.problem_6;
-
 import java.util.*;
-import java.io.*;
 
 public class PentagonalNumbers {
     private static int pentagonalNumber(int n) {
         return 3 * n * n / 2 - n / 2;
     }
 
-    public static void start() {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("\n\nEnter the number of Pentagonal Numbers you want to print : \n");
         int n = input.nextInt();
@@ -21,11 +18,7 @@ public class PentagonalNumbers {
         for (int i = 0; i < n; i++)
             System.out.print(pentagonalNumber(i + 1) + (i != n - 1 ? " , " : ""));
         System.out.println("\n");
-        return;
-    }
-
-    public static void main(String[] args) {
-        start();
+        input.close();
         return;
     }
 }
