@@ -31,6 +31,12 @@ ___
      cd ./build
      make run
   ```
+   - for cleaning build folder:
+  ```bash
+     cd ./build
+     make clean      # for linux
+     make clean(win) # for windows
+  ```
 
 <br>
 
