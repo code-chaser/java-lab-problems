@@ -40,9 +40,32 @@ ___
 
 <br>
 
-- **NOTE:** just compile & execute the code using the makefile as shown above, after that the executable will take you to any problem's solution from any lab as per your choice.
+- **NOTE:** just compile & execute the code using the makefile as shown above, after that the executable will take you to any problem's solution from any lab as per your choice (see screenshots below).
+
+<br>
+
+___
+#### SCREENSHOTS
+
+<br>
+
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101657-6768d78f-2c86-4508-8406-2959047d82fe.png" /></div>
+<br>
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101670-635a6800-3e6a-4a7b-9eb3-ce6d60929282.png" /></div>
+<br>
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101685-678ea761-6155-481d-8021-b35ac2eb1305.png" /></div>
+<br>
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101698-2af0286c-8c46-4e0e-8d3f-1c966a46a26a.png" /></div>
+<br>
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101705-8607c534-f511-4b38-a2ea-9fdc43fbd5f0.png" /></div>
+<br>
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101742-01c1afdf-26d6-4c29-88c3-5f0859389126.png" /></div>
+<br>
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/63065397/132101754-7d81ec04-d643-425c-b631-2a122c15a3ee.png" /></div>
+
 ___
 
+<br>
 <br>
 
 ___
