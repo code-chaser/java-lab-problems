@@ -3,7 +3,10 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+package java_labs.lab_3.problem_2;
+
 import java.util.*;
+import java.io.*;
 
 abstract class Arithmetic {
     public abstract double addition(double a, double b);

@@ -3,7 +3,10 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+package java_labs.lab_3.problem_2;
+
 import java.util.*;
+import java.io.*;
 
 class NonAbstractArithmetic extends Arithmetic {
     public double addition(double a, double b) {

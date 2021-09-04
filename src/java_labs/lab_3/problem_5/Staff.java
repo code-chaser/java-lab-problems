@@ -3,7 +3,10 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+package java_labs.lab_3.problem_5;
+
 import java.util.*;
+import java.io.*;
 
 class Staff extends Student {
     private String name = "", work = "";

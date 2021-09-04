@@ -3,7 +3,10 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+package java_labs.lab_3.problem_1;
+
 import java.util.*;
+import java.io.*;
 
 class Student {
     private String name = "", phone = "";

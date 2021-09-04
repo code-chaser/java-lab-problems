@@ -37,7 +37,7 @@ public class Main {
                     java_labs.lab_2.Lab.start();
                     break;
                 case 3:
-                    //java_labs.lab_3.Lab.start();
+                    java_labs.lab_3.Lab.start();
                     break;
                 case 4:
                     //java_labs.lab_3.Lab.start();

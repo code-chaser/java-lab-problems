@@ -3,7 +3,10 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+package java_labs.lab_3.problem_3;
+
 import java.util.*;
+import java.io.*;
 
 public interface Arithmetic {
     public double addition(double a, double b);
