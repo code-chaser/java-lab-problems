@@ -62,7 +62,7 @@ public class AreaCalculator {
                     area = heightRec * widthRec;
                     break;
                 default:
-                    System.out.println("Invalid Choice!\n");
+                    System.out.println("\nInvalid Choice");
 
             }
             if (choice >= 1 && choice < 6)

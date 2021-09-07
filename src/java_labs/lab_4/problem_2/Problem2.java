@@ -3,27 +3,30 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_3;
+package java_labs.lab_4.problem_2;
 
 import java.util.*;
 import java.io.*;
+import java_labs.lab_4.problem_2.car.Car;
+import java_labs.lab_4.problem_2.vehicle.Vehicle;
 
-public class Lab {
+public class Problem2 {
     public static void start() {
-        Scanner input = new Scanner(System.in);
-        while(true) {
+        Car car = new Car("52WVC10338", "2.7L 4X2 MT Fortuner", "Toyota", "MKCL287987463892", "SUV", 7);
+        Vehicle vehicle = new Vehicle("83WST28493", "10L Crusher Truck", "Mahindra", "JUYN287987463343");
+        while (true) {
+            Scanner input = new Scanner(System.in);
+            double a, b;
             System.out.println("\n\n---------------------------");
-            System.out.println("       | L A B   3 |");
+            System.out.println("\n     V E H I C L E S\n");
             System.out.println("---------------------------\n");
-            System.out.println("[01] : Problem 1");
-            System.out.println("[02] : Problem 2");
-            System.out.println("[03] : Problem 3");
-            System.out.println("[04] : Problem 4");
-            System.out.println("[05] : Problem 5\n");
+            System.out.println("[01] : Print Car Details");
+            System.out.println("[02] : Print Vehicle Details\n");
             System.out.println("[-1] : Exit\n");
             System.out.println("---------------------------\n");
             System.out.println("Enter your choice :\n");
             int choice = input.nextInt();
+            String temp = input.nextLine();
             System.out.println("\n---------------------------\n");
             if (choice == -1) {
                 System.out.println("Exiting...\n");
@@ -32,28 +35,22 @@ public class Lab {
             }
             switch (choice) {
                 case 1:
-                    java_labs.lab_3.problem_1.Problem1.start();
+                    car.display();
+                    System.out.print("\n---------------------------\n");
                     break;
                 case 2:
-                    java_labs.lab_3.problem_2.Problem2.start();
-                    break;
-                case 3:
-                    java_labs.lab_3.problem_3.Problem3.start();
-                    break;
-                case 4:
-                    java_labs.lab_3.problem_4.Problem4.start();
-                    break;
-                case 5:
-                    java_labs.lab_3.problem_5.Problem6.start();
+                    vehicle.display();
+                    System.out.print("\n---------------------------\n");
                     break;
                 default:
                     System.out.println("\nInvalid Choice");
+                    System.out.println("\n---------------------------\n");
+                    break;
             }
-            System.out.println("\n---------------------------\n");
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] Args) {
         start();
         return;
     }

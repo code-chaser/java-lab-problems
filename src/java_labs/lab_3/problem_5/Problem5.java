@@ -27,7 +27,7 @@ public class Problem5 {
             System.out.println("[06] : Print all staff' details\n");
             System.out.println("[-1] : Exit\n");
             System.out.println("---------------------------\n");
-            System.out.println("Enter your choice:");
+            System.out.println("Enter your choice :\n");
             int choice = input.nextInt();
             String temp = input.nextLine();
             System.out.println("\n---------------------------\n");
@@ -83,7 +83,7 @@ public class Problem5 {
                     System.out.println("---------------------------\n");
                     break;
                 default:
-                    System.out.println("Invalid Choice!");
+                    System.out.println("\nInvalid Choice");
                     System.out.print("\n---------------------------\n");
             }
         }

@@ -40,7 +40,10 @@ public class Main {
                     java_labs.lab_3.Lab.start();
                     break;
                 case 4:
-                    //java_labs.lab_3.Lab.start();
+                    java_labs.lab_4.Lab.start();
+                    break;
+                case 5:
+                    //java_labs.lab_5.Lab.start();
                     break;
                 default:
                     System.out.println("\nInvalid Choice");

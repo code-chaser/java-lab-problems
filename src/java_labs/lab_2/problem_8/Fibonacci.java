@@ -20,10 +20,15 @@ public class Fibonacci {
 
     public static void start() {
         Scanner input = new Scanner(System.in);
+        System.out.println("\n\n---------------------------");
+        System.out.println("     P R O B L E M   8");
+        System.out.println("---------------------------\n");
         System.out.println("\n\nEnter the number upto which you want to print Fibonacci Numbers : \n");
         int n = input.nextInt();
+        System.out.println("\n---------------------------\n");
         Vector<Integer> fibonacciNumbersArr = Fibonacci.fibonacciNumbers(n);
-        System.out.println("\nFibonacci Numbers upto " + n + " are : \n" + ((n == 0) ? "[0]" : fibonacciNumbersArr) + "\n");
+        System.out.println("\nFibonacci Numbers upto " + n + " are : \n" + ((n == 0) ? "[0]" : fibonacciNumbersArr));
+        System.out.println("\n---------------------------\n");
         return;
     }
 

@@ -37,13 +37,18 @@ class TwinPrimes {
 
     public static void start() {
         Scanner input = new Scanner(System.in);
+        System.out.println("\n\n---------------------------");
+        System.out.println("     P R O B L E M   1");
+        System.out.println("---------------------------\n");
         System.out.println("\n\nEnter the number upto which you want to find Twin Primes : \n");
         int n = input.nextInt();
+        System.out.println("\n---------------------------\n");
         Vector<Integer> twinPrimesArr = TwinPrimes.twinPrimes(n);
         System.out.println("\nTwin Primes upto " + n + " are : \n");
         for (int i = 0; i < twinPrimesArr.size() - 1; i++)
             if (twinPrimesArr.get(i + 1) == twinPrimesArr.get(i) + 2)
                 System.out.println("{ " + twinPrimesArr.get(i) + " , " + twinPrimesArr.get(i + 1) + " }");
+        System.out.println("\n---------------------------\n");
         return;
     }
 

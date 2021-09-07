@@ -129,6 +129,10 @@ public class Overloading {
                 dummyObj.add(s, a);
                 System.out.println("---------------------------\n");
             }
+            else {
+                System.out.println("\nInvalid Choice");
+                System.out.println("\n---------------------------\n");
+            }
         }
         
         return;

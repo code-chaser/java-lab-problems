@@ -3,13 +3,14 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_3.problem_1;
+package java_labs.lab_4.problem_6;
 
 import java.util.*;
 import java.io.*;
+import java_labs.lab_4.problem_6.school.*;
 
-public class Problem1 {
-    public static void start() {
+public class Problem6 {
+    public static void main(String[] Args) {
         int students = 0, teachers = 0, staff = 0;
         Vector<Student> studentsList = new Vector<Student>(1);
         Vector<Teacher> teachersList = new Vector<Teacher>(1);
@@ -27,7 +28,7 @@ public class Problem1 {
             System.out.println("[06] : Print all staff' details\n");
             System.out.println("[-1] : Exit\n");
             System.out.println("---------------------------\n");
-            System.out.println("Enter your choice :\n");
+            System.out.println("Enter your choice:");
             int choice = input.nextInt();
             String temp = input.nextLine();
             System.out.println("\n---------------------------\n");
@@ -50,7 +51,7 @@ public class Problem1 {
                         studentsList.get(i).printOutput();
                         System.out.println("\n");
                     }
-                    System.out.println("---------------------------\n");
+                    System.out.println("\n---------------------------\n");
                     break;
                 case 3:
                     Teacher T = new Teacher();
@@ -65,7 +66,7 @@ public class Problem1 {
                         teachersList.get(i).printOutput();
                         System.out.println("\n");
                     }
-                    System.out.println("---------------------------\n");
+                    System.out.println("\n---------------------------\n");
                     break;
                 case 5:
                     Staff X = new Staff();
@@ -80,18 +81,13 @@ public class Problem1 {
                         staffList.get(i).printOutput();
                         System.out.println("\n");
                     }
-                    System.out.println("---------------------------\n");
+                    System.out.println("\n---------------------------\n");
                     break;
                 default:
                     System.out.println("\nInvalid Choice");
-                    System.out.print("\n---------------------------\n");
+                    System.out.println("\n---------------------------\n");
             }
         }
-    }
-
-    public static void main(String[] Args) {
-        start();
-        return;
     }
 }
 /*
