@@ -12,7 +12,7 @@ public class Sort {
     static void sort(int[] arr) throws Exception {
         if (arr.length != 10)
             throw new Exception(
-                    "Passed array must have exactly 10 numbers, given array has " + arr.length + " numbers.\n");
+                    "\nPassed array must have exactly 10 numbers, given array has " + arr.length + " numbers.\n");
         Arrays.sort(arr);
         System.out.print("\nArray after sorting: ");
         for (int i : arr)

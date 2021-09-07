@@ -44,7 +44,7 @@ public class Lab {
                     java_labs.lab_3.problem_4.Problem4.start();
                     break;
                 case 5:
-                    java_labs.lab_3.problem_5.Problem6.start();
+                    java_labs.lab_3.problem_5.Problem5.start();
                     break;
                 default:
                     System.out.println("\nInvalid Choice");

@@ -52,12 +52,6 @@ public class Lab {
                 case 6:
                     java_labs.lab_4.problem_6.Problem6.start();
                     break;
-                case 7:
-                    java_labs.lab_4.problem_7.Problem7.start();
-                    break;
-                case 8:
-                    java_labs.lab_4.problem_8.Problem8.start();
-                    break;
                 default:
                     System.out.println("\nInvalid Choice");
             }

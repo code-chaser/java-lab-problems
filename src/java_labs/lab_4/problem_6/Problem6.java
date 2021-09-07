@@ -10,7 +10,7 @@ import java.io.*;
 import java_labs.lab_4.problem_6.school.*;
 
 public class Problem6 {
-    public static void main(String[] Args) {
+    public static void start() {
         int students = 0, teachers = 0, staff = 0;
         Vector<Student> studentsList = new Vector<Student>(1);
         Vector<Teacher> teachersList = new Vector<Teacher>(1);
@@ -88,6 +88,11 @@ public class Problem6 {
                     System.out.println("\n---------------------------\n");
             }
         }
+    }
+
+    public static void main(String[] Args) {
+        start();
+        return;
     }
 }
 /*

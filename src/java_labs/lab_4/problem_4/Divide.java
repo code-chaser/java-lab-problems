@@ -13,9 +13,9 @@ public class Divide {
     static void divide(int[] arr, int divisor) throws Exception {
         if (arr.length != 15)
             throw new IllegalArgumentException(
-                    "Passed array must have exactly 15 numbers, given array has " + arr.length + " numbers.\n");
+                    "\nPassed array must have exactly 15 numbers, given array has " + arr.length + " numbers.\n");
         else if (divisor == 0)
-            throw new ArithmeticException("Cannot divide by zero.\n");
+            throw new ArithmeticException("\nCannot divide by zero.\n");
         for (int i = 0; i < 15; i++)
             arr[i] /= divisor;
         System.out.print("\nArray after divison: ");
