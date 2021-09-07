@@ -6,6 +6,11 @@ ___
 
 ## INTRODUCTION
 archive of my solution codes to JAVA lab problems
+___
+
+<br>
+
+Screenshots of output are in [this folder](./screenshots).
 
 
 ___
@@ -16,7 +21,7 @@ ___
 ## INSTRUCTIONS
 ___
 #### BUILD & EXECUTE
-- For Windows users: firstly install ` make ` for executing ` makefile `, from this [link](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows);
+- For Windows users: firstly install ` make ` for executing ` Makefile `, from this [link](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows);
 - For Linux users: ` make ` generally comes pre-installed;
    - if not, then run the following command: ` sudo apt-get install make `
    <br>
