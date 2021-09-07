@@ -20,9 +20,7 @@ public class Lab {
             System.out.println("[03] : Problem 3");
             System.out.println("[04] : Problem 4");
             System.out.println("[05] : Problem 5");
-            System.out.println("[06] : Problem 6");
-            System.out.println("[07] : Problem 7");
-            System.out.println("[08] : Problem 8\n");
+            System.out.println("[06] : Problem 6\n");
             System.out.println("[-1] : Exit\n");
             System.out.println("---------------------------\n");
             System.out.println("Enter your choice :\n");
