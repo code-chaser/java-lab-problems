@@ -10,7 +10,7 @@ ___
 
 <br>
 
-Screenshots of output are in [this folder](./screenshots).
+**Screenshots of output are in** [**this folder**](./screenshots/java_labs)**.**
 
 
 ___
