@@ -18,6 +18,7 @@ public class Sort {
         for (int i : arr)
             System.out.print(i + " ");
         System.out.println("\n");
+        return;
     }
 }
 /*

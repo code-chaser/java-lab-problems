@@ -18,7 +18,8 @@ public class Main {
             System.out.println("[01] : LAB 1");
             System.out.println("[02] : LAB 2");
             System.out.println("[03] : LAB 3");
-            System.out.println("[04] : LAB 4\n");
+            System.out.println("[04] : LAB 4");
+            System.out.println("[05] : LAB 5\n");
             System.out.println("[-1] : Exit\n");
             System.out.println("---------------------------\n");
             System.out.println("Enter your choice :\n");
@@ -43,7 +44,7 @@ public class Main {
                     java_labs.lab_4.Lab.start();
                     break;
                 case 5:
-                    //java_labs.lab_5.Lab.start();
+                    java_labs.lab_5.Lab.start();
                     break;
                 default:
                     System.out.println("\nInvalid Choice");

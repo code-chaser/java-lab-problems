@@ -3,7 +3,7 @@
 --||author : codechaser||-- 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-package java_labs.lab_4;
+package java_labs.lab_5;
 
 import java.util.*;
 import java.io.*;
@@ -32,19 +32,19 @@ public class Lab {
             }
             switch (choice) {
                 case 1:
-                    java_labs.lab_4.problem_1.Problem1.start();
+                    java_labs.lab_5.problem_1.Problem1.start();
                     break;
                 case 2:
-                    java_labs.lab_4.problem_2.Problem2.start();
+                    java_labs.lab_5.problem_2.Problem2.start();
                     break;
                 case 3:
-                    java_labs.lab_4.problem_3.Problem3.start();
+                    // java_labs.lab_5.problem_3.Problem3.start();
                     break;
                 case 4:
-                    java_labs.lab_4.problem_4.Problem4.start();
+                    // java_labs.lab_5.problem_4.Problem4.start();
                     break;
                 case 5:
-                    java_labs.lab_4.problem_5.Problem5.start();
+                    // java_labs.lab_5.problem_5.Problem5.start();
                     break;
                 default:
                     System.out.println("\nInvalid Choice");
