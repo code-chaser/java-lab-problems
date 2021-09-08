@@ -12,7 +12,7 @@ ___
 
 ## GO TO
 
-- **Screenshots of output are in** [**this folder**](./screenshots/java_labs)**.**
+- **Screenshots of outputs are in** [**this folder**](./screenshots/java_labs)**.**
 - **Solution codes are in** [**this folder**](./src/java_labs)**.** 
 
 ___
