@@ -12,6 +12,8 @@ ___
 
 ## GO TO
 
+<br>
+   
 |LAB||SOLUTION CODES|SCREENSHOTS|
 |:-:|-|:-:|:-:|
 |1||[here](./src/java_labs/lab_1)|[here](./screenshots/java_labs/lab_1)|
@@ -20,6 +22,8 @@ ___
 |4||[here](./src/java_labs/lab_4)|[here](./screenshots/java_labs/lab_4)|
 |5||[here](./src/java_labs/lab_5)|[here](./screenshots/java_labs/lab_5)|
 
+<br>
+   
 - **Screenshots of outputs are in** [**this folder**](./screenshots/java_labs)**.**
 - **Solution codes are in** [**this folder**](./src/java_labs)**.** 
 
