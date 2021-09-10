@@ -31,7 +31,6 @@ ___
 
 
 ## INSTRUCTIONS
-___
 #### BUILD & EXECUTE
 - For Windows users: firstly install ` make ` for executing ` Makefile `, from this [link](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows);
 - For Linux users: ` make ` generally comes pre-installed;
@@ -59,10 +58,9 @@ ___
 
 - **NOTE:** just compile & execute the code using the makefile as shown above, after that the executable will take you to any problem's solution from any lab as per your choice (see screenshots below).
 
-<br>
 
 ___
-#### SCREENSHOTS
+## SCREENSHOTS
 
 <br>
 
