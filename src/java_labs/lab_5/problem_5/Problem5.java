@@ -26,7 +26,7 @@ public class Problem5 {
     public static void start() {
         Scanner input = new Scanner(System.in);
         System.out.println("\n\n---------------------------");
-        System.out.println("     P R O B L E M   4");
+        System.out.println("     P R O B L E M   5");
         System.out.println("---------------------------\n");
         try {
             example();
