@@ -8,7 +8,6 @@ ___
 archive of my solution codes to JAVA lab problems
 ___
 
-<br>
 
 ## GO TO
 
@@ -30,7 +29,6 @@ ___
 ___
 
 
-<br>
 
 ## INSTRUCTIONS
 ___
