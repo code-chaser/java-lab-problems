@@ -41,7 +41,7 @@ public class Lab {
                     java_labs.lab_5.problem_3.Problem3.start();
                     break;
                 case 4:
-                    // java_labs.lab_5.problem_4.Problem4.start();
+                    java_labs.lab_5.problem_4.Problem4.start();
                     break;
                 case 5:
                     // java_labs.lab_5.problem_5.Problem5.start();
