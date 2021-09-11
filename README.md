@@ -1,4 +1,4 @@
-# java-lab-problems &nbsp; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Download Code](https://img.shields.io/badge/Download-Code-purple.svg)](https://github.com/code-chaser/java-lab-problems/archive/refs/heads/main.zip)
+# java-lab-problems &nbsp; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Download Code](https://img.shields.io/badge/Download-Code-red.svg)](https://github.com/code-chaser/java-lab-problems/archive/refs/heads/main.zip)
 
 ___
 
