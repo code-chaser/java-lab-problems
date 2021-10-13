@@ -20,6 +20,7 @@ ___
 |3||[here](./src/java_labs/lab_3)|[here](./screenshots/java_labs/lab_3)|
 |4||[here](./src/java_labs/lab_4)|[here](./screenshots/java_labs/lab_4)|
 |5||[here](./src/java_labs/lab_5)|[here](./screenshots/java_labs/lab_5)|
+|6||[here](./src/java_labs/lab_5)|[here](./screenshots/java_labs/lab_5)|
 
 <br>
    
