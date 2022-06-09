@@ -3,7 +3,7 @@
 ___
 
 ## INTRODUCTION
-archive of my solution codes to JAVA lab problems
+Archive of my solution codes to JAVA lab problems
 ___
 
 
